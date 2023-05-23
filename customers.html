@@ -35,13 +35,13 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      /* overflow: hidden; */
       display: inline-block;
-      float: right;
+      /* float: right; */
 
     }
 
-    li {
+    .breadcrumbs ul li {
       float: left;
     }
 
@@ -60,6 +60,13 @@
       color: #e7e7e7;
       border-radius: 5px;
     }
+
+    .description-list {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    */
   </style>
 </head>
 
@@ -87,7 +94,7 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs pt-0">
       <div class="container stickyidea d-flex justify-content-between align-items-center">
         <h2>Customers</h2>
         <ul>
@@ -140,11 +147,26 @@
 
                 <div class="section-title">
                   <h2>Stated Expectations</h2>
-
                 </div>
-                <p>
+                <p class="description">
+                <ul class="description-list" style="text-align: justify;">
+                  <li>Do you know how much to tip?</li>
+                  <li> Whether you can request a ride for another?</li>
+                  <li>Or whether you can request your own music on the radio? Or eat in the back seat? -
+                    best to ask the Captain.</li>
+                  <li>Don’t make the Captain wait once they’ve arrived.</li>
+                  <li>Text or call the Captain if the location is hard to find, like a hard-to-see house number or
+                    street.</li>
+                  <li>You can also get free rides by referring new passengers using a coupon code. The promo codes can
+                    be
+                    found on each of the apps and websites.</li>
+                  <li>Depending on the Captain, he or she may open the door for you and load your luggage.</li>
+                  <li>If you want to tip in a different way, give the Captain a good rating on the app. The Captain will
+                    also rate you as a passenger.</li>
+                </ul>
 
-                  Do you know how much to tip? </br> Whether you can request a ride for another?</br>
+
+                <!-- Do you know how much to tip? </br> Whether you can request a ride for another?</br>
                   Or whether you can request your own music on the radio? Or eat in the back seat? -
                   best to ask the Captain.</br>
                   Don’t make the Captain wait once they’ve arrived.</br>
@@ -154,8 +176,9 @@
                   found on each of the apps and websites.</br>
                   Depending on the Captain, he or she may open the door for you and load your luggage.</br>
                   If you want to tip in a different way, give the Captain a good rating on the app. The Captain will
-                  also rate you as a passenger.</br>
+                  also rate you as a passenger.</br> -->
                 </p>
+              </div>
 
             </section>
 
@@ -171,18 +194,19 @@
 
                 </div>
                 <p>
-                  <b>Verify the vehicle specifics:</b>
+                  <b style="font-size: 18px; font-weight: bold;">Verify the vehicle specifics:</b>
                   <br /> After confirming a ride is on the way, make sure the car matches what’s
                   listed on the ride-share app upon arrival. <br />Check that the make, model, color and license plate
                   number all match. <br />Beyond ensuring general safety, the measure is also helpful in busy
                   environments
                   where many similar vehicles are out completing rides.<br /><br />
-                  <b> Review a driver’s profile:</b><br />
+                  <b style="font-size: 18px; font-weight: bold;"> Review a driver’s profile:</b><br />
                   In Blink, the Captains are rated on a scale of 'X to Y'. <br />A driver photo and average rider
                   “rating” will appear when a request is accepted.
                   <br />Don’t hesitate to cancel a ride if the driver’s rating, car or appearance seems
                   off. <br /><br />
-                  <b>Confirm you’re the passenger:</b><br /> A predator could easily pose as a ride-share driver; never
+                  <b style="font-size: 18px; font-weight: bold;">Confirm you’re the passenger:</b><br /> A predator
+                  could easily pose as a ride-share driver; never
                   disclose your name first.<br />
                   “Ask the driver who they’re here to pick up so you can confirm it’s the right person” who made the
                   request via the app. <br />
@@ -191,14 +215,16 @@
                   Travel with a friend: Strength in numbers is best, no matter the endeavor. In the case of
                   ride-sharing, <br />
                   “it’s always a good idea to travel with someone else,”<br /><br />
-                  <b>Always wear your seat belt:</b><br /> Even careful motorists can be involved in accidents, <br />
+                  <b style="font-size: 18px; font-weight: bold;">Always wear your seat belt:</b><br /> Even careful
+                  motorists can be involved in accidents, <br />
                   so don’t treat ride-share precautions any differently — even on brief trips. <br />
                   The Blink app has a built in feature for safety of the rider. The way this works is <XXX………………….XXX>
                     <br />
                     All Blink Captains are quality assessed on safety and reliability and customer service. <br />
                     The process involves <XXXXX……………XXX>. There is a certification that is granted post qualification.
                       <br /><br />
-                      <b>Trust your gut:</b><br /> A driver who follows a strange or unsafe route — or maneuvers
+                      <b style="font-size: 18px; font-weight: bold;">Trust your gut:</b><br /> A driver who follows a
+                      strange or unsafe route — or maneuvers
                       erratically or makes
                       inappropriate comments — needn’t be tolerated. <br />
                       Let young riders know it’s OK to speak up if they’re uncomfortable. <br />

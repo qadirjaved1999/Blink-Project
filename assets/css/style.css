@@ -628,16 +628,23 @@ b {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  /* padding: 40px 0; */
   overflow: hidden;
 }
-
+section:target {
+  padding: 90px 0 0px 0 !important;
+  overflow: hidden;
+}
+/* section#about {
+  padding: 100px 0 40px 0 !important;
+  overflow: hidden;
+} */
 .section-bg {
   background-color: #8fffd6;
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -673,13 +680,13 @@ section {
   font-size: 26px;
 }
 
-.about .content ul {
+/* .about .content ul {
   list-style: none;
   padding: 0;
-}
+} */
 
 .about .content ul li {
-  padding-left: 28px;
+  padding-left: 10px;
   position: relative;
 }
 
@@ -713,7 +720,7 @@ section {
   color: #009961;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  margin-top: 6px;
+  margin-top: -9px;
   border: 2px solid #009961;
 }
 
@@ -1078,7 +1085,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  /* padding-top: 40px; */
+  padding-top: 30px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1132,7 +1139,7 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1142,7 +1149,7 @@ section {
 }
 
 .portfolio-details .portfolio-description p {
-  padding: 0;
+  /* padding: 0; */
 }
 
 /*--------------------------------------------------------------
@@ -1566,6 +1573,9 @@ section {
   padding-right: 10px;
   color: #424242;
   content: "/";
+}
+.breadcrumbs li a:hover {
+  background-color: #009961;
 }
 
 /*--------------------------------------------------------------
